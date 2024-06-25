@@ -1,0 +1,79 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #fff; 
+    border-radius: 10px;
+    background-color: #222;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f00;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c00;
+}
+
+p {
+    color: #f00;
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #333;
+    color: #fff; 
+}
+
+table, th, td {
+    border: 1px solid #fff; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f00; 
+}
+
+td {
+    background-color: #222; 
+}

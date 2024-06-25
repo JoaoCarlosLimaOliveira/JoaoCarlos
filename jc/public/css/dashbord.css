@@ -1,0 +1,79 @@
+body {
+    background-color: #000; 
+    color: #fff; 
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-background {
+    background-color: #111; 
+    padding: 20px;
+}
+
+h2 {
+    color: #f00; 
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: #333; 
+    color: #fff; 
+}
+
+table, th, td {
+    border: 1px solid #fff; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f00; 
+}
+
+td {
+    background-color: #222; 
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f00; 
+    color: #fff; 
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #c00; 
+}
+
+button a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.add-button {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.edit-button, .delete-button {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a {
+    color: #f00; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
